@@ -17,7 +17,7 @@ logging.basicConfig(
     filename=LOG_FILE_PATH,
     format="[ %(asctime)s ] - %(lineno)d - %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
-    force=True  # Ensures it works even if logging was configured elsewhere
+    force=True
 )
 
 # Test logging
